@@ -51,7 +51,7 @@ export default function StepThree({ register, errors, control }) {
               label={"Marks"}
               name={`educationHistory.${index}.marks`}
               id={`educationHistory.${index}.marks`}
-              type={"text"}
+              type={"number"}
               register={register}
               errors={errors}
               errorMsg={

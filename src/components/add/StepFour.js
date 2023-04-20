@@ -60,7 +60,7 @@ export default function StepFour({ register, errors, control }) {
               label={"Joining Date"}
               name={`workHistory.${index}.joinDate`}
               id={`workHistory.${index}.joinDate`}
-              type={"text"}
+              type={"date"}
               register={register}
               errors={errors}
               errorMsg={
@@ -72,7 +72,7 @@ export default function StepFour({ register, errors, control }) {
               label={"Last working day"}
               name={`workHistory.${index}.lastDay`}
               id={`workHistory.${index}.lastDay`}
-              type={"text"}
+              type={"date"}
               register={register}
               errors={errors}
               errorMsg={
